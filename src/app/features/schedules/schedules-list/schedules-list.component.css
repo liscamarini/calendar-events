@@ -1,0 +1,17 @@
+.modal-header {
+  flex-wrap: wrap;
+}
+.modal-body p,
+.modal-body h5 {
+    color: #000000 !important;
+    margin-bottom: 2px;
+}
+
+.modal-body  {
+    width: 100%;
+
+}
+
+.modal-body span {
+    font-weight: bold;
+}

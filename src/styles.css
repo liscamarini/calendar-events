@@ -1,1 +1,99 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --bs-indigo: #6610f2;
+  --bs-purple: #a853f1;
+  --bs-purple-50: #d277e0;
+  --bs-red: #dc3545;
+  --bs-yellow: rgb(247, 210, 97);
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-light: #dbddf5;
+  --bs-dark: #212529;
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --bs-gradient: linear-gradient(15deg, rgb(8, 15, 103) 10%, rgba(209, 138, 237, 0.15) 100%);
+}
+
+a {
+    text-decoration: none !important;
+}
+
+p, h1, h2, h3, h4, h5, label, small {
+    color: var(--bs-dark);
+    font-family: var(--bs-font-sans-serif);
+}
+
+body {
+    background-color: var(--bs-light);
+}
+
+.navbar {
+    background-image: var(--bs-gradient) !important;
+}
+
+/* Custom Text */
+.text-purple {
+    color: var(--bs-dark);
+}
+
+/* Custom Badges */
+.badge-purple {
+    background-color: var(--bs-dark);
+}
+
+/* Custom Alerts */
+.alert-purple {
+    background-color: var(--bs-purple);
+    color: var(--bs-white);
+}
+img {
+  width: 100%;
+}
+/* Custom Buttons */
+.btn-purple {
+    color: var(--bs-white);
+    background-color: var(--bs-purple);
+    background-image: none;
+    border-color: var(--bs-indigo)
+}
+
+.btn-outline {
+    color: var(--bs-dark);
+    background-color: transparent;
+    background-image: none;
+    border-color: var(--bs-indigo)
+}
+
+.btn-outline:hover {
+    color: var(--bs-white);
+    background-color: var(--bs-dark);
+    border-color: var(--bs-dark)
+}
+/* Custom Reactive Forms Validation */
+.ng-touched.ng-invalid {
+    border-left-width: 5px;
+    border-color: #DC3545;
+}
+
+/* Custom Table */
+.table {
+    color: var(--bs-yellow);
+}
+
+/* Custom Angular-Calendar */
+.cal-day-badge {
+    background-color: var(--bs-red) !important;
+}
+
+.cell-disabled {
+    background-color: rgba(211, 211, 211, .5);
+    cursor: not-allowed;
+}
+
+.cell-available {
+    cursor: pointer;
+}
+
+.cell-available:hover {
+    background-color: var(--bs-purple) !important;
+}
